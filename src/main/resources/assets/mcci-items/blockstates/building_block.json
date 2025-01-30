@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mcci-items:block/building_block"
+    }
+  }
+}

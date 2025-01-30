@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "mcci-items",
+	"version": "${version}",
+	"name": "MCCI Items",
+	"description": "A mod that adds items from the MCC Island server",
+	"authors": [
+		"Milanchik"
+	],
+	"contact": {
+		"homepage": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	},
+	"license": "MIT",
+	"icon": "assets/mcci-items/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.milanchik.mcci_items.MCCIItems"
+		],
+		"fabric-datagen": [
+			"net.milanchik.mcci_items.MCCIItemsDataGenerator"
+		],
+		"client": [
+			"net.milanchik.mcci_items.MCCIItemsClient"
+		]
+	},
+	"mixins": [
+		"mcci-items.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "1.21.X",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

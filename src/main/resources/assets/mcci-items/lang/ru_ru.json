@@ -1,0 +1,18 @@
+{
+  "item.mcci-items.regen_spark": "Бутылёк регенерации IV",
+  "item.mcci-items.speed_spark": "Бутылёк скорости на 5 секунд",
+  "item.mcci-items.levetation_spark": "Бутылёк левитации на 3 секунды",
+  "item.mcci-items.invisibility_spark": "Бутылёк невидимости на 3 секунды",
+
+  "item.mcci-items.heavy_crossbow": "Утяжелённый арбалет",
+
+  "item.minecraft.potion.effect.cleansing_potion": "Зелье очищения",
+  "item.minecraft.splash_potion.effect.cleansing_potion": "Взрывное зелье очищения",
+  "item.minecraft.lingering_potion.effect.cleansing_potion": "Туманное зелье очищения",
+  "item.minecraft.tipped_arrow.effect.cleansing_potion": "Стрела очищения",
+  "effect.mcci-items.cleansing": "Очищение",
+
+  "block.mcci-items.building_block": "Строительный блок",
+
+  "itemgroup.mcci-items.items": "MCCI Items"
+}

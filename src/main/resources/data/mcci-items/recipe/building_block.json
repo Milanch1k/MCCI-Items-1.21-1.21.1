@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    },
+    "pattern": [
+      "##",
+      "",
+      ""
+    ],
+    "result": {
+      "id": "mcci-items:building_block"
+    },
+    "show_notification": true
+  }
+}

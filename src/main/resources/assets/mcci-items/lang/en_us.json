@@ -1,0 +1,18 @@
+{
+  "item.mcci-items.regen_spark": "Spark of Regeneration IV",
+  "item.mcci-items.speed_spark": "Spark of Speed for 5 seconds",
+  "item.mcci-items.levetation_spark": "Spark of Levetation for 3 seconds",
+  "item.mcci-items.invisibility_spark": "Spark of Invisibility for 3 seconds",
+
+  "item.mcci-items.heavy_crossbow": "Heavy Crossbow",
+
+  "item.minecraft.potion.effect.cleansing_potion": "Potion of Cleansing",
+  "item.minecraft.splash_potion.effect.cleansing_potion": "Splash Potion of Cleansing",
+  "item.minecraft.lingering_potion.effect.cleansing_potion": "Lingering Potion of Cleansing",
+  "item.minecraft.tipped_arrow.effect.cleansing_potion": "Arrow of Cleansing",
+  "effect.mcci-items.cleansing": "Cleansing",
+
+  "block.mcci-items.building_block": "Building Block",
+
+  "itemgroup.mcci-items.items": "MCCI Items"
+}
