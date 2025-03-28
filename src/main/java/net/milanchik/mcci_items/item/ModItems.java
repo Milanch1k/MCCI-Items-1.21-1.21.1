@@ -16,8 +16,6 @@ public class ModItems {
     //    public static final Item CLEANSING = registerItem("cleansing_orb", new CleansingItem(new Item.Settings().maxCount(16)));
     public static final Item HEAVY_CROSSBOW = registerItem("heavy_crossbow",
         new HeavyCrossbowItem(new Item.Settings().maxDamage(465).maxCount(1)));
-//    public static final Item HEAVY_CROSSBOW2 = registerItem("heavy_crossbow2",
-//            new CrossbowItem(new Item.Settings().maxDamage(500).maxCount(1)));
 
 
 

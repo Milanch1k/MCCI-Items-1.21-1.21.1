@@ -20,11 +20,16 @@ public class RegenItem extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
-        user.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 40, 3));
-        world.playSound(null, user.getBlockPos(), SoundEvents.BLOCK_GLASS_BREAK, SoundCategory.BLOCKS);
+        if (!world.isClient) {
+            if (!user.getItemCooldownManager().isCoolingDown(this)) {
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 40, 3));
+                world.playSound(null, user.getBlockPos(), SoundEvents.BLOCK_GLASS_BREAK, SoundCategory.BLOCKS);
 
-        if (!user.getAbilities().creativeMode) {
-            user.getStackInHand(hand).decrement(1);
+                if (!user.getAbilities().creativeMode) {
+                    user.getStackInHand(hand).decrement(1);
+                }
+                user.getItemCooldownManager().set(this, 20);
+            }
         }
 
         return super.use(world, user, hand);

@@ -4,7 +4,9 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin",
-		"TntMixin"
+		"TntMixin",
+		"DeathSpectatorMixin",
+		"InfinityBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

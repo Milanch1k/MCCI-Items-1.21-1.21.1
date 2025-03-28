@@ -4,15 +4,13 @@
   "key": {
     "#": {
       "item": "minecraft:brick"
-    },
-    "pattern": [
-      "##",
-      "",
-      ""
-    ],
-    "result": {
-      "id": "mcci-items:building_block"
-    },
-    "show_notification": true
-  }
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "id": "mcci-items:building_block"
+  },
+  "show_notification": true
 }

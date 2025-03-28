@@ -8,7 +8,15 @@ import net.minecraft.world.GameRules;
 public class RuleRegister {
     public static final GameRules.Key<GameRules.BooleanRule> TNT_AUTO_EXPLOSION = GameRuleRegistry.register("tntAutoExplosion",
             GameRules.Category.MOBS, GameRuleFactory.createBooleanRule(false));
-    public static void register(){
+
+    public static final GameRules.Key<GameRules.BooleanRule> DEATH_SPECTATOR = GameRuleRegistry.register("deathSpectator",
+            GameRules.Category.SPAWNING, GameRuleFactory.createBooleanRule(false));
+
+    public static final GameRules.Key<GameRules.BooleanRule> INFINITY_BLOCK = GameRuleRegistry.register("infinityBlock",
+            GameRules.Category.UPDATES, GameRuleFactory.createBooleanRule(false));
+
+
+    public static void register() {
         MCCIItems.LOGGER.info("Registering rules for: " + MCCIItems.MOD_ID);
     }
 }
